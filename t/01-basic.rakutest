@@ -1,0 +1,6 @@
+use Test;
+use Cro::WebApp::Embed;
+
+pass "replace me";
+
+done-testing;

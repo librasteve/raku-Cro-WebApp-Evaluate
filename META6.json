@@ -9,12 +9,14 @@
   "auth": "zef:librasteve",
   "depends": [
     "Cro::HTTP::Router",
-    "Cro::WebApp"
+    "Cro::WebApp",
+    "DateTime::Format"
   ],
   "build-depends": [],
   "test-depends": [],
   "provides": {
-    "Cro::WebApp::Evaluate": "lib/Cro/WebApp/Evaluate.rakumod"
+    "Cro::WebApp::Evaluate": "lib/Cro/WebApp/Evaluate.rakumod",
+    "Routes": "lib/Routes.rakumod"
   },
   "resources": [],
   "license": "Artistic-2.0",

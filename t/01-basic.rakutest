@@ -1,5 +1,5 @@
 use Test;
-use Cro::WebApp::Embed;
+use Cro::WebApp::Evaluate;
 
 pass "replace me";
 

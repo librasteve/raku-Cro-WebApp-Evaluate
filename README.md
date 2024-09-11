@@ -1,7 +1,9 @@
-NAME
-====
-
 Cro::WebApp::Evaluate
+=====================
+
+so, basically this does the same as ```<?php mycode ?>``` does for php in html web content
+
+sorry!
 
 SYNOPSIS
 ========

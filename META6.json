@@ -1,25 +1,30 @@
 {
-  "name": "Cro::WebApp::Evaluate",
-  "description": "blah blah blah",
-  "version": "0.0.1",
-  "perl": "6.d",
+  "auth": "zef:librasteve",
   "authors": [
     "librasteve"
   ],
-  "auth": "zef:librasteve",
+  "build-depends": [
+  ],
   "depends": [
     "Cro::HTTP::Router",
     "Cro::WebApp",
     "DateTime::Format"
   ],
-  "build-depends": [],
-  "test-depends": [],
+  "description": "blah blah blah",
+  "license": "Artistic-2.0",
+  "name": "Cro::WebApp::Evaluate",
+  "perl": "6.d",
   "provides": {
+    "Cro::WebApp::Embed": "lib/Cro/WebApp/Embed.rakumod",
     "Cro::WebApp::Evaluate": "lib/Cro/WebApp/Evaluate.rakumod",
     "Routes": "lib/Routes.rakumod"
   },
-  "resources": [],
-  "license": "Artistic-2.0",
-  "tags": [],
-  "source-url": "https://github.com/librasteve/raku-Cro-WebApp-Evaluate.git"
+  "resources": [
+  ],
+  "source-url": "https://github.com/librasteve/raku-Cro-WebApp-Evaluate.git",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
 }

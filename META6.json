@@ -8,7 +8,8 @@
   "depends": [
     "Cro::HTTP::Router",
     "Cro::WebApp",
-    "DateTime::Format"
+    "DateTime::Format",
+    "Trap"
   ],
   "description": "blah blah blah",
   "license": "Artistic-2.0",
